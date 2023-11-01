@@ -1,0 +1,38 @@
+body, ul, li{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+.wrap {
+  margin : 0;
+  padding : 0;
+}
+
+.logo {
+    height: 200px;
+    width: 100%;
+    background: gray;
+}
+
+.content-wrap {
+    display: flex;
+}
+
+.content-list {
+    text-align: center;
+    height: 600px;
+    width: 25%;
+    background: pink;
+}
+
+.content-detail {
+    height: 600px;
+    width: 75%;
+    background: bisque;
+}
